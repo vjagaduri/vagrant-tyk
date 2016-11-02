@@ -1,0 +1,10 @@
+---
+# Playbook for Tyk API Gateway
+
+- hosts: 172.29.32.195
+  remote_user: vagrant
+  sudo: yes
+  vars_files:
+    - vars/tyk-api-gw.yml
+  roles:
+    - { role: rhuiser.tyk-digital-api }

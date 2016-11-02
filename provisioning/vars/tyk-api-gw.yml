@@ -1,0 +1,18 @@
+tyk_gateway_port: 8080
+
+# MD5 hash of igtbAPITeam
+tyk_secret: 06865c2881bcf4c8798f12cfb6cd4a13
+hash_keys: "false"
+
+# Make sure you add this (192.168.33.30 igtb-tyk-instance.dev) to your local /etc/hosts file
+tyk_dashboard_url: "http://igtb-tyk-instance.dev"
+tyk_dashboard_port: 3000
+tyk_dashboard_domain: "igtb-tyk-instance.dev"
+
+redishost: localhost
+redisport: 6379
+
+mongodb_url: "mongodb://127.0.0.1/tyk_analytics"
+
+# Using rcd.pt license
+license_key: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhbGxvd2VkX25vZGVzIjoiMTYxZmNlZDQtNDNkMC00MjU4LTRhNTAtZmQ0MGEyZTMzNWM4IiwiZXhwIjoxNTA3MzY0ODIyLCJvd25lciI6IjU3ZmRmM2Q2NDVmOTJlMGJiOTAwMDA4MCJ9.IItqToak6Fj4T7y7uAN2bXo8s0OjkytpBQzv7MZu3y7KNx7Yxa9L_0fM7s07h5l_JFJ0St94HhotJhL9I5bgOclNIkuoUwLguceTZb_m4UB9njAARK75WX-MaGkDgzeB3kPKMUbHjNDVABwnIBIm4m9DuSEKvXvxxOS9DORa9w5q8VWl2AP8rgLj_AkmCiQk4PoRTz4mTaV22mBdGh8DDRXZaLO1lk9kVqbqXzK_z3kHSlP08W9UtaAefkYM_W1L0PdGuur7whM7J30b_mJh1arFc-YCeuv4Aak3KCnxLif9R9UM1F3NTuwXdZbBmPTvjj-vaNROFPa6ui03wuygNg"
